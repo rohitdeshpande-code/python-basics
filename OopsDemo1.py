@@ -22,7 +22,8 @@ class Calculator:
         return self.firstNumber + self.secondNumber + self.num
 
 obj = Calculator(2, 3) #Syntax to create object in python
-obj.getData()
+print(obj.getData())
+print('-------------------------------------------------------------')
 #print(obj.num)
 print(obj.summation())
 # I am called automatically when object is created
@@ -36,3 +37,21 @@ print(obj1.summation())
 # I am called automatically when object is created
 # I am now executing as a method in class
 # 110
+
+print("----------------------------------------------")
+
+class CalculateCls:
+
+    num = 10
+
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+        print("I am inside constructor")
+
+    def summation(self):
+        return self.a + self.b + CalculateCls.num
+
+calc = CalculateCls(2,2)
+print(calc.summation())
+

@@ -14,3 +14,15 @@ def AddIntegers1(a, b):
 GreetMe("Rohit Deshpande")
 AddIntegers(2,3)
 print(AddIntegers1(2, 2))
+
+
+print("---------------------------------------------------")
+
+def Greetings():
+    print("Hello Rohit Deshpande")
+
+def Greetings1(name):
+    print("Hello, " + name)
+
+Greetings()
+Greetings1("Rohit")

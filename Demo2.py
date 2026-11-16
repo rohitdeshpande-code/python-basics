@@ -59,3 +59,54 @@ print(dict) #{'firstname': 'Rohit', 'lastname': 'Deshpande', 'age': 40, 'gender'
 print(dict["firstname"]) #Rohit
 
 print("----------------------------------------------------------")
+
+
+print("List Examples")
+
+list = [6, 2, 5, "cybage", "qa", 3, 1]
+
+print(list)
+print(list[1])
+print(list[-1])
+print(list[1:3]) #sub-string
+list[2] = 4
+print(list[2]) #Add into list
+list.insert(3, "qasupport") #insert at index location
+print(list)
+del list[3]
+print(list)
+print(list.append("End"))
+
+print("----------------------------------------------------------")
+
+print("Tuple Examples")
+
+tup = (5,2,"cybage",1)
+
+print(tup)
+#tup[1] = 3
+#tup[4] = "qa"
+#del tup[1]
+
+print("----------------------------------------------------------")
+
+print("Dictionary Examples")
+
+dict = { "a":1, 2:"qa", "car":"camry", 100:"rohit"}
+
+print(dict)
+print(dict["a"])
+print(dict[100])
+dict[1] = "james bond"
+print(dict)
+
+dict1 = {}
+
+dict1["make"] = "maruti"
+dict1[1] = 1
+dict1["type"] = "car"
+dict1["color"] = "blue"
+
+del dict1[1]
+
+print(dict1)

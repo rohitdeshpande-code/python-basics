@@ -17,3 +17,16 @@ print(type(b))
 print(type(c))
 print(type(d))
 
+print("-------------------------------------------------------------")
+
+a=2
+b="qa"
+c=4.5
+
+print("{}{}".format(a,b))
+print(type(a), type(b), type(c))
+
+str1 = "cybage.com"
+print(str1)
+
+
